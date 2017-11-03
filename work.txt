@@ -1,0 +1,29 @@
+Finne alle felter
+
+awk -F: '{print $1}' kk|sort|uniq > fields.txt
+
+
+Finne maks feltlengde
+
+for u in `cat fields.txt`; do  echo $u `grep "^$u" kk |awk '{print $NF}'|sort -nr|head -1`; done
+
+
+Budget 		  15
+Country 	  48
+Director 	  60
+Genre 		  27
+ID 	  	   9
+Language 	  79
+Metascore 	   2
+Movie 		  71
+Plot 		1004
+Poster 		 178
+Production 	 143
+Rated 		   8
+Rating 		   3
+Released 	  31
+Runtime 	   7
+Stars 		  72
+Votes 		   7
+Writers 	 121
+Year 		   4

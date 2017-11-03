@@ -1,0 +1,27 @@
+<?php
+
+$MOVIEDATA="/tmp/__imdbdata.txt";
+$IMDBData = file_get_contents($MOVIEDATA);
+
+$IMDBData = iconv('UTF-8', 'UTF-8//IGNORE', utf8_encode($IMDBData));
+$Result = json_decode($IMDBData);
+
+
+#var_dump($Result);
+echo "JSON Error: ".json_last_error()."\n";
+
+echo "Year      : ".$Result->data->year."\n";
+echo "Movie     : ".$Result->data->name."\n";
+echo "Director  : ".$Result->data->director."\n";
+echo "Plot      : ".$Result->data->plot."\n";
+echo "Rating    : ".$Result->data->rating."\n";
+echo "Genre     : ".$Result->data->genre."\n";
+echo "Poster    : ".$Result->data->poster_url."\n";
+echo "Stars     : ".$Result->data->stars."\n";
+echo "Error     : ".$Result->error_code."\n";
+echo "Message   : ".$Result->message."\n";
+echo "";
+
+
+#echo "<<".$IMDBData.">>"
+?>

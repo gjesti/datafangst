@@ -1,0 +1,21 @@
+CREATE TABLE IMDB_RAW (
+ID varchar(12),
+Budget varchar(18),
+Country varchar(51),
+Director varchar(63),
+Genre varchar(30),
+Language varchar(82),
+Metascore varchar(5),
+Movie varchar(74),
+Plot varchar(1007),
+Poster varchar(181),
+Production varchar(146),
+Rated varchar(11),
+Rating varchar(6),
+Released varchar(34),
+Runtime varchar(10),
+Stars varchar(75),
+Votes varchar(10),
+Writers varchar(124),
+Year varchar(4)
+);

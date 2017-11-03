@@ -1,0 +1,97 @@
+http://theapache64.xyz:8080/movie_db
+
+{
+"data":
+{
+"plot":"Summer 1910. Several tourists have vanished while relaxing on the beautiful beaches of the Channel Coast. Infamous inspectors Machin and Malfoy soon gather that the epicenter of these ...",
+"year":"2016",
+"imdb_id":"tt4726636",
+"director":"Bruno Dumont",
+"name":"Ma Loute",
+"rating":"6.1",
+"genre":"Comedy",
+"poster_url":"https://images-na.ssl-images-amazon.com/images/M/MV5BY2JkMDNmY2ItN2VlMS00ZTQ3LTg2ZTctOTJlNWE3NzBlMTMwXkEyXkFqcGdeQXVyODM3MjA1NA@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+"stars":"Fabrice Luchini, Juliette Binoche, Valeria Bruni Tedeschi, Jean-Luc Vincent"
+},
+"error_code":0,
+"error":false,
+"message":"Movie found"
+}
+
+
+http://imdbapi.net/user/api
+
+{
+"imdb_id":"tt4726636",
+"title":"Ma Loute",
+"year":"2016",
+"rated":"",
+"released":"13 May 2016 (France)",
+"runtime":"122 min",
+"genre":"Comedy",
+"director":"Bruno Dumont",
+"writers":"Bruno Dumont  (dialogue), Bruno Dumont  (screenplay)",
+"actors":"Fabrice Luchini , Juliette Binoche , Valeria Bruni Tedeschi",
+"plot":"Summer 1910. Several tourists have vanished while relaxing on the beautiful beaches of the Channel Coast. Infamous inspectors Machin and Malfoy soon gather that the epicenter of these mysterious disappearances must be Slack Bay, a unique site where the Slack river and the sea join only at high tide. There lives a small community of fishermen and other oyster farmers. Among them evolves a curious family, the Br\u00e9fort, renowned ferrymen of the Slack Bay, lead by the father nick-named \"The Eternal\", who rules as best as he can on his prankster bunch of sons, especially the impetuous Ma Loute, aged 18. Towering high above the bay stands the Van Peteghems' mansion. Every summer, this bourgeois family - all degenerate and decadent from inbreeding - stagnates in the villa, not without mingling during their leisure hours of walking, sailing or bathing, with the ordinary local people, Ma Loute and the other Br\u00e9forts. Over the course of five days, as starts a peculiar love story between Ma Loute...",
+"country":"France, Germany, Belgium",
+"language":"French, English",
+"metascore":"66",
+"poster":"https:\/\/images-na.ssl-images-amazon.com\/images\/M\/MV5BY2JkMDNmY2ItN2VlMS00ZTQ3LTg2ZTctOTJlNWE3NzBlMTMwXkEyXkFqcGdeQXVyODM3MjA1NA@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+"rating":"6.1",
+"votes":"2,559",
+"budget":"\u20ac7,000,000",
+"opening_weekend":"$920,719                (France)",
+"gross":"$62,159",
+"production":"3B Productions, Twenty Twenty Vision Filmproduktion GmbH, Pallas Film",
+"type":"movie",
+"status":"true"
+}
+
+object(stdClass)#2 (23) {
+  ["imdb_id"]=>
+  string(9) "tt4726636"
+  ["title"]=>
+  string(8) "Ma Loute"
+  ["year"]=>
+  string(4) "2016"
+  ["rated"]=>
+  string(0) ""
+  ["released"]=>
+  string(20) "13 May 2016 (France)"
+  ["runtime"]=>
+  string(7) "122 min"
+  ["genre"]=>
+  string(6) "Comedy"
+  ["director"]=>
+  string(12) "Bruno Dumont"
+  ["writers"]=>
+  string(52) "Bruno Dumont  (dialogue), Bruno Dumont  (screenplay)"
+  ["actors"]=>
+  string(59) "Fabrice Luchini , Juliette Binoche , Valeria Bruni Tedeschi"
+  ["plot"]=>
+  string(1004) "Summer 1910. Several tourists have vanished while relaxing on the beautiful beaches of the Channel Coast. Infamous inspectors Machin and Malfoy soon gather that the epicenter of these mysterious disappearances must be Slack Bay, a unique site where the Slack river and the sea join only at high tide. There lives a small community of fishermen and other oyster farmers. Among them evolves a curious family, the Bréfort, renowned ferrymen of the Slack Bay, lead by the father nick-named "The Eternal", who rules as best as he can on his prankster bunch of sons, especially the impetuous Ma Loute, aged 18. Towering high above the bay stands the Van Peteghems' mansion. Every summer, this bourgeois family - all degenerate and decadent from inbreeding - stagnates in the villa, not without mingling during their leisure hours of walking, sailing or bathing, with the ordinary local people, Ma Loute and the other Bréforts. Over the course of five days, as starts a peculiar love story between Ma Loute..."
+  ["country"]=>
+  string(24) "France, Germany, Belgium"
+  ["language"]=>
+  string(15) "French, English"
+  ["metascore"]=>
+  string(2) "66"
+  ["poster"]=>
+  string(161) "https://images-na.ssl-images-amazon.com/images/M/MV5BY2JkMDNmY2ItN2VlMS00ZTQ3LTg2ZTctOTJlNWE3NzBlMTMwXkEyXkFqcGdeQXVyODM3MjA1NA@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  ["rating"]=>
+  string(3) "6.1"
+  ["votes"]=>
+  string(5) "2,559"
+  ["budget"]=>
+  string(12) "€7,000,000"
+  ["opening_weekend"]=>
+  string(32) "$920,719                (France)"
+  ["gross"]=>
+  string(7) "$62,159"
+  ["production"]=>
+  string(69) "3B Productions, Twenty Twenty Vision Filmproduktion GmbH, Pallas Film"
+  ["type"]=>
+  string(5) "movie"
+  ["status"]=>
+  string(4) "true"
+}
